@@ -7,7 +7,7 @@ use std::ptr;
 
 use codecs;
 
-#[derive(Debug, PartialEq, Copy)]
+#[derive(Debug, PartialEq, Copy, Clone)]
 pub struct YamlVersionDirective {
     pub major: isize,
     pub minor: isize,

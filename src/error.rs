@@ -5,7 +5,7 @@ use ffi;
 use ffi::YamlErrorType;
 use ffi::YamlErrorType::*;
 
-#[derive(Debug, PartialEq, Copy)]
+#[derive(Debug, PartialEq, Copy, Clone)]
 pub struct YamlMark {
     pub index: usize,
     pub line: usize,
